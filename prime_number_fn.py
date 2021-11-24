@@ -1,4 +1,4 @@
-num = int(input('Check Prime Number'))
+num = int(input('Enter Prime Number'))
 if num > 1:
     for i in range(2, int(num/2)+1):
   
@@ -6,6 +6,6 @@ if num > 1:
             print(num, "is not a prime number")
             break
     else:
-        print(num, "is a prime number")
+        print(num, "is a PRIME NUMBER")
 else:
     print(num, "is not a prime number")
