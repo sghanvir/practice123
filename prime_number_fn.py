@@ -1,4 +1,4 @@
-num = int(input('Check Prime Number'))
+num = int(input('Enter Prime Number'))
 if num > 1:
     for i in range(2, int(num/2)+1):
   
